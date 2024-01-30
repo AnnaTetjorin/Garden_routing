@@ -1,0 +1,40 @@
+.divMap {
+  background-color: #fff;
+}
+
+.divMapDark {
+  background-color: #282828;
+}
+
+.mapBild {
+  width: 96%;
+  height: 350px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .mapBild {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mapBild {
+    width: 93%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mapBild {
+    width: 90%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mapBild {
+    width: 85%;
+    height: 250px;
+  }
+}

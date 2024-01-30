@@ -1,0 +1,267 @@
+.divHeader {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(205, 204, 204);
+}
+
+.divHeaderDark {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #282828;
+  border-bottom: 1px solid rgb(205, 204, 204);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 420px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+nav ul .liLightTheme {
+  list-style: none;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 20px;
+  color: #282828;
+  text-decoration: none;
+}
+
+nav ul .liDarkTheme a {
+  list-style: none;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.pending {
+  color: #282828;
+}
+
+.active {
+  color: green;
+}
+
+.shoppingCart {
+  width: 48px;
+  height: 48px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.menu {
+  display: none;
+}
+
+.buttonThemeUndShoppingCart {
+  display: flex;
+  gap: 20px;
+}
+.themeButton {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 195, 195);
+  padding: 5px 10px;
+  font-family: Montserrat;
+  font-weight: 500px;
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1490px) {
+  nav {
+    gap: 280px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  nav {
+    gap: 230px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  nav {
+    gap: 180px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  nav {
+    gap: 160px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  nav {
+    gap: 130px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  nav {
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  nav {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  nav {
+    gap: 50px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  nav {
+    gap: 10px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+  .buttonThemeUndShoppingCart {
+    gap: 10px;
+  }
+  .themeButton {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    gap: 80px;
+  }
+  .themeButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 869px) {
+  nav {
+    gap: 70px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav {
+    gap: 50px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  nav {
+    gap: 40px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  nav {
+    gap: 30px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    gap: 25px;
+  }
+  nav ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  nav {
+    gap: 15px;
+  }
+  nav ul li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  nav {
+    gap: 5px;
+  }
+  nav ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 44px;
+    height: 44px;
+  }
+  .shoppingCart {
+    width: 32px;
+    height: 32px;
+    margin-left: 240px;
+  }
+
+  .menu {
+    display: block;
+    width: 44px;
+    height: 44px;
+  }
+  nav ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .shoppingCart {
+    margin-left: 190px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .shoppingCart {
+    margin-left: 140px;
+  }
+}

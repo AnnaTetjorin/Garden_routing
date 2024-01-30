@@ -1,0 +1,513 @@
+.divForm {
+  background-color: #fff;
+}
+
+.divFormDark {
+  background-color: #282828;
+  margin-top: -30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.greenDiv {
+  background: #0b710b;
+  border-radius: 20px;
+  width: 93%;
+  height: 486px;
+  padding: 30px;
+  margin: 30px;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+}
+
+.formErrorMessage {
+  color: rgb(246, 5, 5);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: -10px;
+  margin-top: -5px;
+}
+
+.pSubmittedRegistration {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.formHands {
+  width: 948px;
+  height: 331px;
+  margin-left: -50px;
+}
+
+.divInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+  padding: auto 40px;
+  margin-top: -45px;
+}
+
+input {
+  border-radius: 6px;
+  padding: 16px 32px;
+  width: 450px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  background: transparent;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.whiteButton {
+  color: #282828;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  width: 516px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #fff;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1480px) {
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 331px;
+    overflow: hidden;
+    margin-left: -10px;
+  }
+  .greenDiv .imgWrapper {
+    width: 544px;
+    overflow: hidden;
+  }
+  form {
+    gap: 50px;
+  }
+  input {
+    width: 400px;
+  }
+  .whiteButton {
+    width: 470px;
+  }
+  .greenDiv {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 331px;
+    overflow: hidden;
+    margin-left: -10px;
+  }
+  .greenDiv .imgWrapper {
+    width: 548px;
+    overflow: hidden;
+  }
+  form {
+    gap: 50px;
+  }
+  input {
+    width: 400px;
+  }
+  .whiteButton {
+    width: 470px;
+  }
+  .greenDiv {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .formErrorMessage {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .formErrorMessage {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 64px;
+    margin-top: 20px;
+  }
+  .greenDiv {
+    width: 90%;
+    padding: 10px;
+  }
+  .greenDiv .imgWrapper {
+    width: 448px;
+    overflow: hidden;
+  }
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 331px;
+    object-fit: cover;
+  }
+  form {
+    margin-top: -50px;
+  }
+
+  .divInputs {
+    width: 10%;
+    justify-content: flex-end;
+    margin-left: 120px;
+    margin-top: 2px;
+  }
+  .formErrorMessage {
+    font-size: 16px;
+    width: 290px;
+  }
+  .divInputs input {
+    width: 270px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 340px;
+  }
+  .formErrorMessage {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .divInputs {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .divInputs {
+    margin-left: 75px;
+  }
+  .greenDiv .imgWrapper {
+    width: 438px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .greenDiv .imgWrapper {
+    width: 418px;
+  }
+  h2 {
+    font-size: 49px;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .greenDiv .imgWrapper {
+    width: 400px;
+  }
+  h2 {
+    font-size: 49px;
+  }
+  .divInputs input {
+    width: 250px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .divInputs input {
+    width: 200px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .greenDiv .imgWrapper {
+    width: 360px;
+  }
+  .divInputs input {
+    width: 200px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 45px;
+  }
+  .greenDiv .imgWrapper {
+    width: 260px;
+    overflow: hidden;
+  }
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 331px;
+    object-fit: cover;
+  }
+
+  .divInputs {
+    width: 10%;
+    justify-content: flex-end;
+    margin-left: 110px;
+  }
+  .divInputs input {
+    width: 300px;
+    padding: auto 20px;
+  }
+
+  .divInputs .whiteButton {
+    width: 370px;
+  }
+  .greenDiv {
+    width: 88%;
+    padding: 15px 10px;
+  }
+  form {
+    margin-top: -35px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .greenDiv .imgWrapper {
+    width: 320px;
+  }
+  .divInputs input {
+    width: 180px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 250px;
+  }
+
+  .divInputs {
+    width: 10%;
+    justify-content: flex-end;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .greenDiv .imgWrapper {
+    width: 300px;
+  }
+  .divInputs {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .greenDiv .imgWrapper {
+    width: 300px;
+  }
+  .divInputs {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .greenDiv .imgWrapper {
+    width: 270px;
+  }
+  .divInputs {
+    margin-left: 40px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 40px;
+  }
+  form {
+    flex-direction: column-reverse;
+  }
+  .greenDiv .imgWrapper {
+    width: 440px;
+    overflow: hidden;
+    margin-left: 30px;
+  }
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .divInputs {
+    width: 10%;
+    justify-content: center;
+    margin-left: 215px;
+  }
+  .divInputs input {
+    width: 300px;
+    padding: auto 20px;
+  }
+
+  .divInputs .whiteButton {
+    width: 370px;
+  }
+  .greenDiv {
+    width: 86%;
+    padding: 5px 10px;
+    height: 666px;
+    margin: 20px;
+  }
+  form {
+    margin-top: -15px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  h2 {
+    font-size: 35px;
+  }
+  .divInputs {
+    margin-left: 205px;
+  }
+  .greenDiv .imgWrapper {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  h2 {
+    font-size: 30px;
+  }
+  .divInputs {
+    margin-left: 185px;
+  }
+  .greenDiv .imgWrapper {
+    margin-left: 10px;
+    width: 410px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  h2 {
+    font-size: 30px;
+  }
+  .divInputs {
+    margin-left: 165px;
+  }
+  .greenDiv .imgWrapper {
+    margin-left: 5px;
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  h2 {
+    font-size: 25px;
+  }
+  .divInputs {
+    margin-left: 145px;
+    width: 70px;
+  }
+  .greenDiv .imgWrapper {
+    margin-left: 5px;
+    width: 380px;
+  }
+  .divInputs .whiteButton {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  h2 {
+    font-size: 25px;
+  }
+  .divInputs {
+    margin-left: 125px;
+    width: 70px;
+  }
+  .divInputs input {
+    width: 230px;
+  }
+  .greenDiv .imgWrapper {
+    margin-left: 5px;
+    width: 330px;
+  }
+  .divInputs .whiteButton {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h2 {
+    font-size: 40px;
+  }
+  form {
+    flex-direction: column-reverse;
+  }
+  .greenDiv .imgWrapper {
+    width: 300px;
+    overflow: hidden;
+  }
+  .imgWrapper .formHands {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .divInputs {
+    width: 10%;
+    justify-content: center;
+    margin-left: 135px;
+  }
+  .divInputs input {
+    width: 220px;
+    padding: auto 20px;
+  }
+  .divInputs .whiteButton {
+    width: 290px;
+  }
+  .greenDiv {
+    width: 89%;
+    padding: 5px 5px;
+    height: 660px;
+    margin: 15px;
+  }
+  form {
+    margin-top: -15px;
+  }
+}

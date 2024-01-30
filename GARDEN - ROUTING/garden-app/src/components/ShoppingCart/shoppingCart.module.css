@@ -1,0 +1,57 @@
+.h1ShoppingCart {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.h1ShoppingCartDark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.line {
+  width: 45%;
+  height: 1px;
+  background: #ddd;
+}
+
+a span {
+  padding: 8px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.h1AndSpan {
+  display: flex;
+  align-items: center;
+}
+
+.h1AndSpanDark {
+  display: flex;
+  align-items: center;
+}
+
+.divShoppingCart {
+  background-color: #fff;
+}
+
+.divShoppingCartDark {
+  background-color: #282828;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,800 @@
+.divProductDark {
+  background-color: #282828;
+}
+
+.divProduct {
+  background-color: #fff;
+}
+
+.mainCategoriesToolsButtons {
+  display: flex;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.mainCategoriesToolsButtons .shortLine {
+  width: 20px;
+  height: 1px;
+  background: #ddd;
+  margin-top: 17px;
+}
+
+.mainCategoriesToolsButtons .mainButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  background: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mainCategoriesToolsButtons .categoryButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mainCategoriesToolsButtons .toolsButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mainCategoriesToolsButtons .secateursButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: rgb(6, 6, 6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.divSingleProduct {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+  background-color: #fff;
+}
+
+.divSingleProductDark {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+  background-color: #282828;
+}
+
+.divSingleProduct .productItemImage {
+  height: 270px;
+  width: 50%;
+}
+
+.imgProduct {
+  width: 700px;
+}
+
+.containerTitlePrice .h3Title {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.containerTitlePrice .h3TitleDark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.divPrices {
+  display: flex;
+  gap: 20px;
+}
+
+.divPrices .priceWithDiscont {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.divPrices .priceWithDiscontDark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.divPrices .initialPrice {
+  color: #8b8b8b;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+  margin-top: 50px;
+}
+
+.divPrices .discont_percent {
+  position: relative;
+  top: 30px;
+  right: -15px;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #393;
+  width: 30px;
+  height: 20px;
+}
+
+.counterUndButton .addButton {
+  background-color: #393;
+  display: flex;
+  padding: 16px 76px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  margin-left: 40px;
+}
+
+.productDescription {
+  margin-top: 52px;
+}
+
+.productDescription .h6Light {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.productDescription .h6Dark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.productDescription .textLight {
+  overflow: hidden;
+  color: #282828;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 600px;
+  white-space: pre-line;
+}
+
+.productDescription .textDark {
+  overflow: hidden;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 600px;
+  white-space: pre-line;
+}
+
+.counterUndButton {
+  display: flex;
+}
+
+.divCounter .minusButton {
+  width: 90px;
+  height: 58px;
+  background: #fff;
+  color: #8b8b8b;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+
+.divCounter .countButton {
+  width: 96px;
+  height: 58px;
+  background: #fff;
+  color: #282828;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+
+.divCounter .plusButton {
+  width: 90px;
+  height: 58px;
+  background: #fff;
+  color: #8b8b8b;
+  font-size: 18px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 1420px) {
+  .imgProduct {
+    width: 630px;
+  }
+  .divCounter .minusButton {
+    width: 58px;
+  }
+
+  .divCounter .countButton {
+    width: 58px;
+  }
+
+  .divCounter .plusButton {
+    width: 58px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 36px;
+  }
+  .containerTitlePrice {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .divPrices {
+    margin-top: -60px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .imgProduct {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imgProduct {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .imgProduct {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .imgProduct {
+    width: 530px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .imgProduct {
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .imgProduct {
+    width: 500px;
+  }
+  .divCounter .minusButton {
+    width: 58px;
+  }
+
+  .divCounter .countButton {
+    width: 58px;
+  }
+
+  .divCounter .plusButton {
+    width: 58px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 36px;
+  }
+  .containerTitlePrice {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .divPrices {
+    margin-top: -60px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .imgProduct {
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .divCounter .minusButton {
+    width: 56px;
+  }
+  .divCounter .countButton {
+    width: 56px;
+  }
+  .divCounter .plusButton {
+    width: 56px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 30px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .productDescription .textLight {
+    margin-top: -20px;
+  }
+  .productDescription .textDark {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .divCounter .minusButton {
+    width: 54px;
+  }
+  .divCounter .countButton {
+    width: 54px;
+  }
+  .divCounter .plusButton {
+    width: 54px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 26px;
+  }
+  .imgProduct {
+    width: 450px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .productDescription .textLight {
+    margin-top: -20px;
+  }
+  .productDescription .textDark {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .divCounter .minusButton {
+    width: 52px;
+  }
+  .divCounter .countButton {
+    width: 52px;
+  }
+  .divCounter .plusButton {
+    width: 52px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 22px;
+  }
+  .imgProduct {
+    width: 430px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .productDescription .textLight {
+    margin-top: -20px;
+  }
+  .productDescription .textDark {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .divCounter .minusButton {
+    width: 50px;
+  }
+  .divCounter .countButton {
+    width: 50px;
+  }
+  .divCounter .plusButton {
+    width: 50px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 20px;
+  }
+  .imgProduct {
+    width: 410px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .productDescription .textLight {
+    margin-top: -30px;
+  }
+  .productDescription .textDark {
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .divCounter .minusButton {
+    width: 50px;
+  }
+  .divCounter .countButton {
+    width: 50px;
+  }
+  .divCounter .plusButton {
+    width: 50px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 20px;
+  }
+  .imgProduct {
+    width: 390px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .productDescription .text {
+    margin-top: -30px;
+  }
+  .productDescription .textDark {
+    margin-top: -30px;
+  }
+  .containerTitlePrice {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .imgProduct {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .imgProduct {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .imgProduct {
+    width: 350px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .containerTitlePrice .h3TitleDark {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .counterUndButton {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -10px;
+  }
+  .counterUndButton .addButton {
+    padding: 16px 26px;
+    margin-left: -5px;
+  }
+  .containerTitlePrice {
+    margin-top: -50px;
+  }
+  .h3Title {
+    font-size: 32px;
+  }
+  .h3TitleDark {
+    font-size: 32px;
+  }
+  .divPrices {
+    margin-top: -50px;
+  }
+  .productDescription .textLight,
+  .h6Light {
+    margin-left: -300px;
+  }
+  .productDescription .textDark,
+  .h6Dark {
+    margin-left: -300px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 56px;
+  }
+  .divPrices .priceWithDiscontDark {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .imgProduct {
+    width: 320px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 48px;
+  }
+  .divPrices .priceWithDiscontDark {
+    font-size: 48px;
+  }
+  .productDescription .textLight,
+  .h6Light {
+    margin-left: -330px;
+  }
+  .productDescription .textDark,
+  .h6Dark {
+    margin-left: -330px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .imgProduct {
+    width: 300px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -300px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .imgProduct {
+    width: 280px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -300px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .imgProduct {
+    width: 260px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -270px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .imgProduct {
+    width: 250px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -270px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imgProduct {
+    width: 200px;
+  }
+  .counterUndButton {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20px;
+  }
+  .counterUndButton .addButton {
+    padding: 6px 1px;
+    width: 190px;
+    margin-left: -1px;
+  }
+  .containerTitlePrice {
+    margin-top: -20px;
+    margin-left: -30px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 28px;
+    margin-left: -205px;
+  }
+  .divPrices {
+    margin-top: -20px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -220px;
+    max-width: 400px;
+  }
+  .divPrices .discont_percent {
+    position: relative;
+    top: 10px;
+    right: 275px;
+  }
+  .divCounter .minusButton {
+    width: 48px;
+    height: 48px;
+  }
+
+  .divCounter .countButton {
+    width: 48px;
+    height: 48px;
+  }
+
+  .divCounter .plusButton {
+    width: 48px;
+    height: 48px;
+  }
+  .productItemImage {
+    margin-top: 110px;
+  }
+  .mainCategoriesToolsButtons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .imgProduct {
+    width: 300px;
+  }
+  .counterUndButton {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -20px;
+    margin-left: -150px;
+  }
+  .counterUndButton .addButton {
+    padding: 6px 1px;
+    width: 190px;
+    margin-left: -1px;
+  }
+
+  .counterUndButton .counter {
+    margin-left: 20px;
+  }
+  .containerTitlePrice {
+    margin-top: -30px;
+    margin-left: 210px;
+  }
+  .containerTitlePrice .h3Title {
+    font-size: 28px;
+    margin-top: -355px;
+  }
+  .divPrices {
+    margin-top: 300px;
+    margin-left: -150px;
+  }
+  .divPrices .priceWithDiscont {
+    font-size: 40px;
+  }
+  .productDescription .text,
+  .h6 {
+    margin-left: -220px;
+    max-width: 400px;
+  }
+  .divPrices .discont_percent {
+    position: relative;
+    top: -280px;
+    right: 25px;
+  }
+  .divCounter .minusButton {
+    width: 48px;
+    height: 48px;
+  }
+
+  .divCounter .countButton {
+    width: 48px;
+    height: 48px;
+  }
+
+  .divCounter .plusButton {
+    width: 48px;
+    height: 48px;
+  }
+  .productItemImage {
+    margin-top: 80px;
+  }
+  .mainCategoriesToolsButtons {
+    display: none;
+  }
+
+  .divSingleProduct {
+    flex-direction: column;
+  }
+}

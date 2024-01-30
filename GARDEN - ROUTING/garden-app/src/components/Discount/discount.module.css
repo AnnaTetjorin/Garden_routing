@@ -1,0 +1,83 @@
+.divDiscount {
+  max-width: 100%;
+  height: 600px;
+  margin-top: -59px;
+}
+
+.h1Amazing {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 86px;
+  font-style: normal;
+  font-weight: 700;
+  max-width: 70%;
+  padding-left: 40px;
+  padding-top: 80px;
+}
+
+.greenButton {
+  background-color: #393;
+  display: flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border: none;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1240px) {
+  .h1Amazing {
+    font-size: 80px;
+    max-width: 95%;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .h1Amazing {
+    font-size: 80px;
+    max-width: 95%;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .h1Amazing {
+    font-size: 68px;
+    padding-left: 1px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h1Amazing {
+    font-size: 60px;
+    padding-left: 1px;
+  }
+  .divDiscount {
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .h1Amazing {
+    font-size: 56px;
+    padding-left: 1px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .h1Amazing {
+    font-size: 52px;
+    padding-left: 1px;
+  }
+}

@@ -1,0 +1,280 @@
+/*.divSingleProduct {
+  width: 23%;
+}*/
+
+.mainCategoriesToolsButtons {
+  display: flex;
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.mainCategoriesToolsButtonsDark {
+  display: flex;
+  margin: 30px;
+  margin-top: 60px;
+  background-color: #282828;
+  padding: 80px;
+  margin: -45px;
+}
+
+.mainCategoriesToolsButtons .shortLine {
+  width: 20px;
+  height: 1px;
+  background: #ddd;
+  margin-top: 17px;
+}
+
+.mainCategoriesToolsButtonsDark .shortLineDark {
+  width: 20px;
+  height: 1px;
+  background: #ddd;
+  margin-top: 17px;
+}
+
+.mainCategoriesToolsButtons .mainButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: rgb(6, 6, 6);
+  background: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mainCategoriesToolsButtonsDark .mainButtonDark {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: rgb(6, 6, 6);
+  background: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mainCategoriesToolsButtons .categoryButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: rgb(6, 6, 6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mainCategoriesToolsButtonsDark .categoryButtonDark {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: rgb(6, 6, 6);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.mainCategoriesToolsButtons .toolsButton {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.mainCategoriesToolsButtonsDark .toolsButtonDark {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  gap: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  color: #8b8b8b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.showAllProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 30px;
+}
+
+.showAllProductsDark {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 20px;
+  background-color: #282828;
+  margin-top: -5px;
+  padding-left: 40px;
+  margin-left: -10px;
+  padding-right: 40px;
+  margin-right: -10px;
+}
+
+.h1Light {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.h1Dark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.productItemImage {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imgProduct {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.h3Title {
+  color: #282828;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 90%;
+  margin-top: -20px;
+}
+
+.h3TitleDark {
+  color: #fff;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  max-width: 90%;
+  margin-top: -20px;
+}
+
+.h1ToolsDark {
+  background-color: #282828;
+  padding-bottom: 20px;
+}
+
+.containerTitlePrice .divPrices .priceWithDiscont {
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.containerTitlePrice .divPrices .priceWithDiscontDark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.containerTitlePrice .divPrices .initialPrice {
+  color: gray;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.containerTitlePrice .divPrices .initialPriceDark {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.discont_percent {
+  position: relative;
+  top: -526px;
+  right: -60%;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #393;
+  width: 49px;
+}
+
+.greenAddButton .addButton {
+  padding: 16px 76px;
+  margin-left: 10px;
+  border-radius: 6px;
+  background: #393;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+  top: -76px;
+  right: -3%;
+}
+
+.priceWithDiscountAndInitial {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: -20px;
+}
